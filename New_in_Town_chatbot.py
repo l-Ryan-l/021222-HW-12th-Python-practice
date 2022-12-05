@@ -2,7 +2,7 @@ from bot_commands import *
 from user_stat import *
 
 
-app = ApplicationBuilder().token("5822125621:AAFp9Yotb2lwpZAiUgMMFn1Am1RE5EnnZdY").build()
+app = ApplicationBuilder().token("your_token_here").build()
 print('bot is working...')
 app.add_handler(CommandHandler("hello", hello_command))
 app.add_handler(CommandHandler('help', help_command))
